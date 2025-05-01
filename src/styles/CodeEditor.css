@@ -1,0 +1,23 @@
+.code-editor-card {
+    height: 100%;
+  }
+  
+  .editor-container {
+    height: 100%;
+    min-height: 60vh;
+    border-radius: 0;
+  }
+  
+  /* Styling for the editor */
+  .monaco-editor {
+    padding-top: 8px;
+  }
+  
+  .editor-controls {
+    background-color: #1e1e1e;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #333;
+  }

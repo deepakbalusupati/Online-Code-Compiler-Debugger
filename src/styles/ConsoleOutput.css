@@ -1,0 +1,43 @@
+.console-card {
+    height: 100%;
+  }
+  
+  .console-output {
+    padding: 10px;
+    font-family: 'Consolas', 'Monaco', monospace;
+    font-size: 14px;
+    line-height: 1.5;
+    background-color: #212529;
+    color: #fff;
+    overflow: auto;
+    height: 60vh;
+    margin: 0;
+    white-space: pre-wrap;
+  }
+  
+  .console-error {
+    padding: 10px;
+    font-family: 'Consolas', 'Monaco', monospace;
+    font-size: 14px;
+    line-height: 1.5;
+    background-color: #212529;
+    color: #ff6b6b;
+    overflow: auto;
+    height: 60vh;
+    margin: 0;
+    white-space: pre-wrap;
+  }
+  
+  .console-input {
+    font-family: 'Consolas', 'Monaco', monospace;
+    font-size: 14px;
+    line-height: 1.5;
+    height: 60vh;
+    border-radius: 0;
+    resize: none;
+  }
+  
+  .nav-tabs .nav-link {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
